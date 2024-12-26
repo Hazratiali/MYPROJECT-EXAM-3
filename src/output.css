@@ -601,6 +601,10 @@ video {
   height: 350px;
 }
 
+.h-\[280px\] {
+  height: 280px;
+}
+
 .w-\[350px\] {
   width: 350px;
 }
@@ -611,6 +615,14 @@ video {
 
 .w-\[48\%\] {
   width: 48%;
+}
+
+.w-\[px\] {
+  width: px;
+}
+
+.w-\[270px\] {
+  width: 270px;
 }
 
 .flex-col {
@@ -639,6 +651,10 @@ video {
 
 .gap-\[15px\] {
   gap: 15px;
+}
+
+.gap-\[\] {
+  gap: ;
 }
 
 .rounded-\[15px\] {
@@ -680,6 +696,10 @@ video {
   padding: 30px;
 }
 
+.p-\[px\] {
+  padding: px;
+}
+
 .px-\[15px\] {
   padding-left: 15px;
   padding-right: 15px;
@@ -703,6 +723,11 @@ video {
 .py-\[8px\] {
   padding-top: 8px;
   padding-bottom: 8px;
+}
+
+.px-\[px\] {
+  padding-left: px;
+  padding-right: px;
 }
 
 .text-center {
@@ -733,6 +758,10 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+}
+
+.text-\[\] {
+  color: ;
 }
 
 .shadow-xl {
@@ -778,6 +807,10 @@ video {
     margin-top: -170px;
   }
 
+  .lg\:mb-\[100px\] {
+    margin-bottom: 100px;
+  }
+
   .lg\:block {
     display: block;
   }
@@ -816,6 +849,10 @@ video {
 
   .lg\:justify-between {
     justify-content: space-between;
+  }
+
+  .lg\:p-\[10px\] {
+    padding: 10px;
   }
 
   .lg\:text-start {
