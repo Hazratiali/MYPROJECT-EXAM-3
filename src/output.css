@@ -733,6 +733,10 @@ video {
   flex-direction: column;
 }
 
+.flex-col-reverse {
+  flex-direction: column-reverse;
+}
+
 .items-center {
   align-items: center;
 }
@@ -771,6 +775,10 @@ video {
 
 .gap-\[35px\] {
   gap: 35px;
+}
+
+.gap-\[25px\] {
+  gap: 25px;
 }
 
 .rounded-\[15px\] {
