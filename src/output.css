@@ -577,6 +577,16 @@ video {
   margin-bottom: 50px;
 }
 
+.my-\[\] {
+  margin-top: ;
+  margin-bottom: ;
+}
+
+.my-\[15px\] {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
 .mb-\[30px\] {
   margin-bottom: 30px;
 }
@@ -621,6 +631,34 @@ video {
   margin-top: 60px;
 }
 
+.mt-\[\] {
+  margin-top: ;
+}
+
+.mt-\[15px\] {
+  margin-top: 15px;
+}
+
+.mt-\[10px\] {
+  margin-top: 10px;
+}
+
+.mt-\[30px\] {
+  margin-top: 30px;
+}
+
+.mt-\[50px\] {
+  margin-top: 50px;
+}
+
+.mb-\[\] {
+  margin-bottom: ;
+}
+
+.mb-\[20px\] {
+  margin-bottom: 20px;
+}
+
 .flex {
   display: flex;
 }
@@ -657,6 +695,18 @@ video {
   height: 900px;
 }
 
+.h-\[3\] {
+  height: 3;
+}
+
+.h-\[360px\] {
+  height: 360px;
+}
+
+.h-\[450px\] {
+  height: 450px;
+}
+
 .w-\[170px\] {
   width: 170px;
 }
@@ -685,6 +735,34 @@ video {
   width: 550px;
 }
 
+.w-\[\] {
+  width: ;
+}
+
+.w-\[380p\] {
+  width: 380p;
+}
+
+.w-\[400px\] {
+  width: 400px;
+}
+
+.w-\[200px\] {
+  width: 200px;
+}
+
+.w-\[px\] {
+  width: px;
+}
+
+.w-\[380px\] {
+  width: 380px;
+}
+
+.max-w-\[1200px\] {
+  max-width: 1200px;
+}
+
 .flex-col {
   flex-direction: column;
 }
@@ -699,6 +777,10 @@ video {
 
 .justify-between {
   justify-content: space-between;
+}
+
+.justify-around {
+  justify-content: space-around;
 }
 
 .gap-\[10px\] {
@@ -733,6 +815,10 @@ video {
   gap: 5px;
 }
 
+.place-self-center {
+  place-self: center;
+}
+
 .rounded-\[15px\] {
   border-radius: 15px;
 }
@@ -745,6 +831,14 @@ video {
   border-radius: 0.375rem;
 }
 
+.rounded-\[\] {
+  border-radius: ;
+}
+
+.rounded-\[20px\] {
+  border-radius: 20px;
+}
+
 .border {
   border-width: 1px;
 }
@@ -752,6 +846,28 @@ video {
 .border-\[grey\] {
   --tw-border-opacity: 1;
   border-color: rgb(128 128 128 / var(--tw-border-opacity, 1));
+}
+
+.border-\[bg-green-700\] {
+  border-color: bg-green-700;
+}
+
+.border-\[text-gray-500\] {
+  border-color: text-gray-500;
+}
+
+.border-gray-700 {
+  --tw-border-opacity: 1;
+  border-color: rgb(55 65 81 / var(--tw-border-opacity, 1));
+}
+
+.border-\[\#\#279A59\] {
+  border-color: ##279A59;
+}
+
+.border-\[\#279A59\] {
+  --tw-border-opacity: 1;
+  border-color: rgb(39 154 89 / var(--tw-border-opacity, 1));
 }
 
 .bg-\[\#24BFD0\] {
@@ -782,6 +898,11 @@ video {
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
+}
+
+.bg-green-700 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(21 128 61 / var(--tw-bg-opacity, 1));
 }
 
 .p-\[10px\] {
@@ -843,6 +964,11 @@ video {
 .py-\[8px\] {
   padding-top: 8px;
   padding-bottom: 8px;
+}
+
+.px-\[\] {
+  padding-left: ;
+  padding-right: ;
 }
 
 .text-center {
@@ -915,6 +1041,20 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
 }
 
+.text-gray-500 {
+  --tw-text-opacity: 1;
+  color: rgb(107 114 128 / var(--tw-text-opacity, 1));
+}
+
+.text-\[\] {
+  color: ;
+}
+
+.text-green-700 {
+  --tw-text-opacity: 1;
+  color: rgb(21 128 61 / var(--tw-text-opacity, 1));
+}
+
 .shadow-2xl {
   --tw-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
   --tw-shadow-colored: 0 25px 50px -12px var(--tw-shadow-color);
@@ -968,6 +1108,18 @@ video {
     margin-top: -170px;
   }
 
+  .lg\:mt-\[\] {
+    margin-top: ;
+  }
+
+  .lg\:mt-\[50px\] {
+    margin-top: 50px;
+  }
+
+  .lg\:mt-\[70px\] {
+    margin-top: 70px;
+  }
+
   .lg\:block {
     display: block;
   }
@@ -996,6 +1148,10 @@ video {
     height: 500px;
   }
 
+  .lg\:h-\[320px\] {
+    height: 320px;
+  }
+
   .lg\:w-\[1150px\] {
     width: 1150px;
   }
@@ -1012,6 +1168,30 @@ video {
     width: 530px;
   }
 
+  .lg\:w-\[400px\] {
+    width: 400px;
+  }
+
+  .lg\:w-\[00px\] {
+    width: 00px;
+  }
+
+  .lg\:w-\[3800px\] {
+    width: 3800px;
+  }
+
+  .lg\:w-\[380px\] {
+    width: 380px;
+  }
+
+  .lg\:w-\[550px\] {
+    width: 550px;
+  }
+
+  .lg\:flex-grow {
+    flex-grow: 1;
+  }
+
   .lg\:flex-row {
     flex-direction: row;
   }
@@ -1020,8 +1200,16 @@ video {
     justify-content: space-between;
   }
 
+  .lg\:justify-around {
+    justify-content: space-around;
+  }
+
   .lg\:gap-\[30px\] {
     gap: 30px;
+  }
+
+  .lg\:p-\[10px\] {
+    padding: 10px;
   }
 
   .lg\:text-start {
