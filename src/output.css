@@ -698,6 +698,18 @@ video {
   margin-bottom: 15px;
 }
 
+.mt-\[530px\] {
+  margin-top: 530px;
+}
+
+.mt-\[565px\] {
+  margin-top: 565px;
+}
+
+.mt-\[575px\] {
+  margin-top: 575px;
+}
+
 .flex {
   display: flex;
 }
@@ -1245,6 +1257,18 @@ video {
 
   .lg\:mb-\[15px\] {
     margin-bottom: 15px;
+  }
+
+  .lg\:mt-\[0px\] {
+    margin-top: 0px;
+  }
+
+  .lg\:mt-\[-280px\] {
+    margin-top: -280px;
+  }
+
+  .lg\:mt-\[50px\] {
+    margin-top: 50px;
   }
 
   .lg\:block {
