@@ -1271,6 +1271,14 @@ video {
     margin-top: 50px;
   }
 
+  .lg\:mt-\[100px\] {
+    margin-top: 100px;
+  }
+
+  .lg\:mt-\[250px\] {
+    margin-top: 250px;
+  }
+
   .lg\:block {
     display: block;
   }
