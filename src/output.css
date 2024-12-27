@@ -670,6 +670,10 @@ video {
   height: 900px;
 }
 
+.h-\[261px\] {
+  height: 261px;
+}
+
 .w-\[170px\] {
   width: 170px;
 }
@@ -700,6 +704,10 @@ video {
 
 .w-\[48\%\] {
   width: 48%;
+}
+
+.w-\[171px\] {
+  width: 171px;
 }
 
 .flex-col {
@@ -748,6 +756,10 @@ video {
 
 .gap-\[5px\] {
   gap: 5px;
+}
+
+.gap-\[21px\] {
+  gap: 21px;
 }
 
 .rounded-\[15px\] {
@@ -905,6 +917,10 @@ video {
 
 .text-\[40px\] {
   font-size: 40px;
+}
+
+.text-\[23px\] {
+  font-size: 23px;
 }
 
 .font-bold {
