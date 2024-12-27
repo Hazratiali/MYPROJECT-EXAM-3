@@ -1051,6 +1051,10 @@ video {
   padding-right: 20px;
 }
 
+.pt-\[50px\] {
+  padding-top: 50px;
+}
+
 .text-center {
   text-align: center;
 }
@@ -1423,9 +1427,17 @@ video {
     padding: 15px;
   }
 
+  .lg\:p-\[50px\] {
+    padding: 50px;
+  }
+
   .lg\:px-\[0px\] {
     padding-left: 0px;
     padding-right: 0px;
+  }
+
+  .lg\:pt-\[50px\] {
+    padding-top: 50px;
   }
 
   .lg\:text-start {
